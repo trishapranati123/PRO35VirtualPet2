@@ -78,6 +78,7 @@ function readStock(data){
 
   function addFoods(){
     //function to read food Stock
+    dog.addImage(dogImg);
     foodS++;
     database.ref('/').update({
       Food : foodS
